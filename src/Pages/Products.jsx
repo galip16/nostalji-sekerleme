@@ -1,6 +1,6 @@
 import React from "react";
 import { Container,Col,Card,Row } from "react-bootstrap";
-import "../component/Product.css"
+import "../styles/products.css";
 
 function Products() {
   return (

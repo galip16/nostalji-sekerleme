@@ -1,8 +1,7 @@
 import React from "react";
-import "./About.css";
 import { Card } from "react-bootstrap";
+import "../styles/about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import seker from "../Images/seker.webp";
 
 function About() {
   return (
@@ -54,7 +53,7 @@ function About() {
             className="imageAbout"
             height="500px"
             variant="top"
-            src={seker}
+            src="./images/seker.webp"
           />
         </Card.Body>
       </Card>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button, Container } from "react-bootstrap";
 
-import "./Events.css";
+import "../styles/events.css";
 
 function Events() {
   const events = [

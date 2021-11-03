@@ -1,5 +1,5 @@
 import React from "react";
-import ResponsivePlayer from "../Component/video/ResponsivePlayer.jsx";
+import ResponsivePlayer from "../components/responsivePlayer.jsx";
 
 function Home() {
   return (

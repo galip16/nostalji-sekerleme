@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button, Container, CardGroup, Link } from "react-bootstrap";
-import "./Contact.css";
+import "../styles/contact.css";
 
 //Features to be added in future versions
 //maili ve telefonu tiklaninca clipboarda kopyalama

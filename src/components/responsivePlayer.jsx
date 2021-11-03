@@ -1,13 +1,12 @@
 import React from "react";
-import cottoncandy from "../video/cotton-candy.mp4";
-import "./responsive-player.css";
 import { Button } from "reactstrap";
+import "../styles/responsivePlayer.css";
 
 function ResponsivePlayer() {
   return (
     <div className="mainDiv">
       <video className="videoCandy" autoPlay loop muted>
-        <source src={cottoncandy} type="video/mp4" />
+        <source src="./videos/cotton-candy.mp4" type="video/mp4" />
       </video>
       <div className="mainText">
         <h1>Nostalji Sekerleme</h1>
