@@ -1,9 +1,7 @@
 import { React, useState, useEffect } from "react";
-import "./NavBar.css";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import Logo from "./Images/logo1.png";
 
 import { CgInstagram, CgFacebook } from "react-icons/cg";
 import { FiPhoneCall } from "react-icons/fi";
@@ -41,7 +39,7 @@ function NavBar() {
         >
           <img
             alt="Nostalji Sekerleme Logo"
-            src={Logo}
+            src="./images/logo1.png"
             // width={{isMobile} ? "80" : "120"}
             // height={{isMobile} ? "60" : "80"}
             width={isMobile ? "100" : "120"}
