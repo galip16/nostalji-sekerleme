@@ -11,7 +11,7 @@ function ResponsivePlayer() {
       <div className="mainText">
         <h1>Nostalji Şekerleme</h1>
         <p>Organizasyonunuzu tatlandırmak için hizmetinizdeyiz..</p>
-        <Button outline color="dark">
+        <Button outline color="dark" href="/about">
           Daha Fazla Bilgi
         </Button>
       </div>

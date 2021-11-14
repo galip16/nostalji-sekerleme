@@ -1,20 +1,20 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import "../styles/about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function About() {
   return (
-    <div>
+    <Container fluid="lg">
       {/* <img src="../Images/seker.webp"  alt="" className="foto"/> */}
-      <Card className="backgroundAbout">
+      <Card className="backgroundAbout border-0">
         {/* <Card.Body className="cardbody d-flex flex-column justify-content-center text-center"> */}
 
         <Card.Body className="cardbody">
           <Card.Header as="h2" className="headerAbout">
             Nostalji Sekerleme Hikayemiz
           </Card.Header>
-          <Card.Text className=" cardText text-justify border">
+          <Card.Text className="cardText text-justify border-0">
             <p>
               {" "}
               2000’li yıllarından başında “Krokan Helva” üretmeye başlayarak
@@ -57,7 +57,7 @@ function About() {
           />
         </Card.Body>
       </Card>
-    </div>
+    </Container>
   );
 }
 
