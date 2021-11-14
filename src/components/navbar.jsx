@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { CgInstagram, CgFacebook } from "react-icons/cg";
-import { FiPhoneCall } from "react-icons/fi";
+// import { FiPhoneCall } from "react-icons/fi";
 
 
 function NavBar() {
@@ -27,7 +27,7 @@ function NavBar() {
   });
   return (
 
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand
           href="#home"
