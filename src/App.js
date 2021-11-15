@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import Events from "./pages/Events";
 import Instagram from "./pages/Instagram";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/events" component={Events} />
           <Route path="/instagram" component={Instagram} />
           <Route path="/contact" component={Contact} />
+          <Route component={NotFound} />
+
         </Switch>
       </BrowserRouter>
     </div>
