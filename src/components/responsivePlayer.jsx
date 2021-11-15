@@ -9,8 +9,8 @@ function ResponsivePlayer() {
         <source src="./videos/cotton-candy.mp4" type="video/mp4" />
       </video>
       <div className="mainText">
-        <h1>Nostalji Sekerleme</h1>
-        <p>Organizasyonunuzu tatlandirmak icin hizmetinizdeyiz..</p>
+        <h1>Nostalji Şekerleme</h1>
+        <p>Organizasyonunuzu tatlandırmak için hizmetinizdeyiz..</p>
         <div className="btn">
           <Button outline color="dark">
             Daha Fazla Bilgi
