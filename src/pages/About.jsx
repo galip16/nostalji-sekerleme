@@ -16,7 +16,6 @@ function About() {
           </Card.Header>
           <Card.Text className=" cardText text-justify border">
             <p>
-              {" "}
               2000’li yıllarından başında “Krokan Helva” üretmeye başlayarak
               girdiğimiz sektörde ürün yelpazemize “Osmanlı Macununu” katarak
               Bursa ili çevresinde gerçekleşen Ertuğrul Gazi’yi anma ve Söğüt
@@ -25,7 +24,7 @@ function About() {
             </p>
 
             <p>
-              2005 itibari ile klasik Pamuk Şeker anlayışını yıkarak kendi
+              2005 yili itibari ile klasik Pamuk Şeker anlayışını yıkarak kendi
               ürettiğimiz makineler ile “Pamuk Şeker” satışına başladık. Evlilik
               ve sünnet düğünlerinde misafirlerine ürünlerimizi ikram etmek
               isteyen müşterilerimiz bizlere ulaşmaya başladı.Müşteri
