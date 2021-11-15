@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Container, CardGroup, Link } from "react-bootstrap";
+import { Card, Button, CardGroup } from "react-bootstrap";
 import "../styles/contact.css";
 
 //Features to be added in future versions

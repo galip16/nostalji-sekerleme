@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { CgInstagram, CgFacebook } from "react-icons/cg";
-import { FiPhoneCall } from "react-icons/fi";
+// import { FiPhoneCall } from "react-icons/fi";
 
 
 function NavBar() {
@@ -26,22 +26,19 @@ function NavBar() {
     window.addEventListener("resize", handleResize);
   });
   return (
-
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" fixed="top" className="border-bottom">
       <Container>
         <Navbar.Brand
           href="#home"
           className={
             isMobile
-              ? "d-flex align-items-center flex-column w-100"
+              ? "d-flex align-items-center flex-column"
               : "d-flex align-items-center"
           }
         >
           <img
             alt="Nostalji Sekerleme Logo"
             src="./images/logo1.png"
-            // width={{isMobile} ? "80" : "120"}
-            // height={{isMobile} ? "60" : "80"}
             width={isMobile ? "100" : "120"}
             height={isMobile ? "70" : "80"}
             className="d-inline-block align-center"
@@ -53,9 +50,9 @@ function NavBar() {
             </p>
           </div>
         </Navbar.Brand>
-        {isMobile ? "" : <Button variant="outline-info">Bize Ulaşın</Button>}
+        {!isMobile && <Button variant="outline-info">Bize Ulaşın</Button>}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link href="/">Anasayfa</Nav.Link>
             <Nav.Link href="/about">Hakkımızda</Nav.Link>
@@ -70,13 +67,13 @@ function NavBar() {
               href="https://www.instagram.com/bursa_nostalji_sekerleme/"
               target="_blank"
             >
-              <CgInstagram />{" "}
+              <CgInstagram />
             </Nav.Link>
             <Nav.Link
               href="https://www.instagram.com/bursa_nostalji_sekerleme/"
               target="_blank"
             >
-              <CgFacebook />{" "}
+              <CgFacebook />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

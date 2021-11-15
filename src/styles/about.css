@@ -12,23 +12,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   opacity: 1;
   background-color: white(230, 141, 185, 0.5);
-  height: 250vh;
-
+  /* height: 250vh; */
   line-height: 2;
-
   font-size: 20px;
 }
 
 .cardText {
   justify-content: center;
   width: 60vw;
-  margin-top: 30px;
-  padding-top: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* margin-top: 30px; */
+  /* padding-top: 20px; */
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
 }
 
 @media (max-width: 576px) {
