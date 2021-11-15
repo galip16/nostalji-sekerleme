@@ -18,13 +18,13 @@ function About() {
             <p>
               2000'li yıllarından başında "Krokan Helva" üretmeye başlayarak
               girdiğimiz sektörde ürün yelpazemize "Osmanlı Macununu" katarak
-              Bursa ili çevresinde gerçekleşen Ertuğrul Gazi'yi anma ve Söğüt
+              Bursa ili çevresinde gerçekleşen Ertuğrul Gazi'yi Anma ve Söğüt
               Şenlikleri ve "İznik Panayırı" başta olmak üzere birçok etkinlikte
               yer aldık.
             </p>
 
             <p>
-              2005 yili itibari ile klasik Pamuk Şeker anlayışını yıkarak kendi
+              2005 yılı itibari ile klasik Pamuk Şeker anlayışını yıkarak kendi
               ürettiğimiz makineler ile "Pamuk Şeker" satışına başladık. Evlilik
               ve sünnet düğünlerinde misafirlerine ürünlerimizi ikram etmek
               isteyen müşterilerimiz bizlere ulaşmaya başladı.Müşteri
@@ -35,7 +35,6 @@ function About() {
             </p>
 
             <p>
-              {" "}
               2010 yılında Osmanlı Mutfağının şifalı içeceklerinden "Osmanlı
               Şerbetini" orijinal tarifiyle ürettik ve yazın sıcağında
               müşterilerimizin ferahlamasına vesile olduk. Nostalji Şekerleme
@@ -45,7 +44,7 @@ function About() {
             </p>
 
             <p>
-              Sizi Nostalji Seker deneyimini bizzat yaşamaya davet ediyoruz.
+              Sizi Nostalji Şekerleme deneyimini bizzat yaşamaya davet ediyoruz.
             </p>
           </Card.Text>
           <Card.Img
