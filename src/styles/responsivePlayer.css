@@ -1,5 +1,5 @@
 .mainDiv {
-  height: 88vh;
+  height: calc(100vh - 100px);
   width: 100vw;
 }
 
@@ -12,7 +12,8 @@
 
 .mainDiv .mainText {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   width: 60%;
   padding: 2vh;
@@ -26,11 +27,13 @@
   color: black;
   font-size: 85px;
   font-weight: bold;
+  flex: 100%;
 }
 
 .mainText > p {
   color: black;
   font-size: 32px;
+  flex: 100%;
 }
 
 @media screen and (max-width: 960px) {

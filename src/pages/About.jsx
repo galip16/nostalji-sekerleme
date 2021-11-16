@@ -5,57 +5,39 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function About() {
   return (
-    <Container fluid="lg">
-      {/* <img src="../Images/seker.webp"  alt="" className="foto"/> */}
-      <Card className="backgroundAbout border-0">
-        {/* <Card.Body className="cardbody d-flex flex-column justify-content-center text-center"> */}
-
-        <Card.Body className="cardbody">
-          <Card.Header as="h2" className="headerAbout">
-            Nostalji Sekerleme Hikayemiz
+    <Container fluid="lg" className="about py-3">
+      <Card className="d-flex text-center">
+        <Card.Body>
+          <Card.Header as="h2" className="mb-5 text-light rounded-lg">
+            Nostalji Şekerleme Hikayemiz
           </Card.Header>
-          <Card.Text className="cardText text-justify border-0">
-            <p>
+          <Card.Text className="text-justify border-0">
               2000'li yıllarından başında "Krokan Helva" üretmeye başlayarak
               girdiğimiz sektörde ürün yelpazemize "Osmanlı Macununu" katarak
               Bursa ili çevresinde gerçekleşen Ertuğrul Gazi'yi Anma ve Söğüt
               Şenlikleri ve "İznik Panayırı" başta olmak üzere birçok etkinlikte
-              yer aldık.
-            </p>
-
-            <p>
+              yer aldık.<br/><br/>
               2005 yılı itibari ile klasik Pamuk Şeker anlayışını yıkarak kendi
               ürettiğimiz makineler ile "Pamuk Şeker" satışına başladık. Evlilik
               ve sünnet düğünlerinde misafirlerine ürünlerimizi ikram etmek
-              isteyen müşterilerimiz bizlere ulaşmaya başladı.Müşteri
+              isteyen müşterilerimiz bizlere ulaşmaya başladı. Müşteri
               memnuniyeti artınca kendimizi geliştirmeye yönelik Ar-ge
               çalışmaları yürüttük ve kadromuza "Patlamış Mısır", "Salep", "Elma
               Şekeri" kattık. Artık Bursa çapında düzenlenen birçok festivalde
-              görev almaya başladık.
-            </p>
-
-            <p>
+              görev almaya başladık.<br/><br/>
               2010 yılında Osmanlı Mutfağının şifalı içeceklerinden "Osmanlı
               Şerbetini" orijinal tarifiyle ürettik ve yazın sıcağında
               müşterilerimizin ferahlamasına vesile olduk. Nostalji Şekerleme
               olarak amacımız insanlara sağlıklı, olabildiğince doğal ve
               kaliteli yeni ürünler sunabilmek ve organizasyonlara tat
-              katmaktır.
-            </p>
-
-            <p>
+              katmaktır.<br/><br/>
               Sizi Nostalji Şekerleme deneyimini bizzat yaşamaya davet ediyoruz.
-            </p>
           </Card.Text>
-          <Card.Img
-            className="imageAbout"
-            height="500px"
-            variant="top"
-            src="./images/seker.webp"
-          />
         </Card.Body>
+        <Card.Img variant="bottom" src="./images/seker.webp" className="my-3 d-block mx-auto" />
       </Card>
     </Container>
+
   );
 }
 

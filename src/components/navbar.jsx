@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -50,7 +50,6 @@ function NavBar() {
             </p>
           </div>
         </Navbar.Brand>
-        {!isMobile && <Button variant="outline-info">Bize Ulaşın</Button>}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
