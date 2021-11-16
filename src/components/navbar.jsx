@@ -29,7 +29,7 @@ function NavBar() {
     <Navbar bg="light" expand="lg" fixed="top" className="border-bottom">
       <Container>
         <Navbar.Brand
-          href="#home"
+          href="/"
           className={
             isMobile
               ? "d-flex align-items-center flex-column"
