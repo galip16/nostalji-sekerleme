@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Pamuk Şeker",
+        "text": "Kendi imal ettiğimiz Pamuk Şeker makineleriyle tamamen doğal şeker ve meyve özleri kullanarak üretim gerçekleştirmekteyiz..",
+        "imgUrl": "https://images.pexels.com/photos/4714301/pexels-photo-4714301.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    },
+    {
+        "name": "Osmanlı Macunu",
+        "text": "Evimizin mutfağında tamamen steril ortamda doğal şeker kullanarak üretmekteyiz. Renklendirmeyi ise müşterilerimizin sağlığını düşünerek tamamen meyve ve sebzelerden yapmaktayız. Örneğin yeşil rengi verirken Kivi kullanmak gibi..",
+        "imgUrl": "https://www.peynircibaba.com/image/blog/mesir-macunu-faydalari-nelerdir.jpg"
+    },
+    {
+        "name": "Patlamış Mısır",
+        "text": "Halk arasında son zamanlarda Pop-Corn olarak tabir edilen bu ürünümüzü yine özel ürettiğimiz makineler ile yağ-tuz oranını sağlık standartları doğrultusunda ayarlayarak üretmekteyiz..",
+        "imgUrl": "https://images.pexels.com/photos/5633527/pexels-photo-5633527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "name": "Osmanlı Şerbeti",
+        "text": "Geleneksel Osmanlı Mutfağı'nin en klasik meşrubatlarından olan Osmanlı Şerbeti'ni müşterilerimizin istekleri doğrultusunda doğal baharatlar katarak hizmetinize sunmaktayız.",
+        "imgUrl": "https://static.wixstatic.com/media/b4cff3_a24a9161aefa4995b4d22299a6aa6414~mv2.png/v1/fill/w_762,h_401,fp_0.50_0.50,lg_1,q_85/b4cff3_a24a9161aefa4995b4d22299a6aa6414~mv2.webp"
+    },
+    {
+        "name": "Salep",
+        "text": " Salep, kültürümüzün en önemli içeceklerindendir. Bu lezzetler, Osmanlı'dan bugüne sokaklarda, el arabalarında, omuzlarda satılarak insanlarla buluştu. Bu kadim hatırayı doğal olarak üretip yine sizlere sunmaktayız..",
+        "imgUrl": "https://www.griechische-rezepte.net/wp-content/uploads/2021/02/salep.jpg"
+    },
+    {
+        "name": "Elma Şekeri",
+        "text": "Taze ve doğal elmalardan ürettiğimiz şekerlerimize bayılacaksınız.. Tabiki katkı maddesiz..",
+        "imgUrl": "https://static.wixstatic.com/media/b4cff3_cb83400a92ef4ad3afa9bc2444fca018~mv2.jpg/v1/fill/w_837,h_440,fp_0.50_0.50,lg_1,q_85/b4cff3_cb83400a92ef4ad3afa9bc2444fca018~mv2.webp"
+    },
+    {
+        "name": "Talep ettiğiniz bir ürün mü var??",
+        "text": "Yukarıda listelenen ürünlerin haricinde, talep etmeniz halinde bir çok hizmeti de sunabiliriz. (Kumda Kahve,Smoothie, vb) Lütfen bizimle iletişime geçin..",
+        "imgUrl": "https://static.wixstatic.com/media/nsplsh_6fb9ef2958c24cbc9b5114f23fdd0d86~mv2.jpg/v1/fill/w_837,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/nsplsh_6fb9ef2958c24cbc9b5114f23fdd0d86~mv2.webp"
+    }
+]
