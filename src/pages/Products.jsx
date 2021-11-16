@@ -6,22 +6,22 @@ import productData from "../productsInfo.json";
 function Products() {
   return (
     <div>
-      <Container fluid="xl">
-        <Row className=" my-3 d-flex  text-center">
-          <Col lg={12}>
-            <Card border="white">
-              <Card.Body>
-                <Card.Header as="h2" className="mb-3 text-light rounded-lg  ">
-                  Ürünlerimiz
-                </Card.Header>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+      <Row className=" my-3 d-flex  text-center">
+        <Col lg={12}>
+          <Card border="white">
+            <Card.Body>
+              <Card.Header as="h2" className="bg-white border-0 ">
+                Ürünlerimiz
+              </Card.Header>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
 
+      <Container fluid>
         {productData.map((product, key) => {
           return (
-            <Row className=" m-md-2 mb-md-4 my-lg-5 justify-content-center">
+            <Row className=" m-md-2 mb-md-4 my-lg-5  justify-content-center">
               <Col xs={12} md={6} lg={6} className="">
                 <Row className="m-auto h-100 w-100 ">
                   <Card className="" border="light" bg="light">

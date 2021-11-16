@@ -8,7 +8,7 @@ function About() {
     <Container fluid="lg" className="about py-3">
       <Card border="white" className="d-flex text-center">
         <Card.Body>
-          <Card.Header as="h2" className="mb-5 text-light rounded-lg ">
+          <Card.Header as="h2" className="mb-5 border-0 bg-white ">
             Hikayemiz
           </Card.Header>
           <Card.Text className="text-justify border-0">
