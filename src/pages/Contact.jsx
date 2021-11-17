@@ -1,27 +1,29 @@
 import React from "react";
-import { Card, Button, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Nav } from "react-bootstrap";
 import "../styles/contact.css";
-
 //Features to be added in future versions
 //maili ve telefonu tiklaninca clipboarda kopyalama
 
 function Contact() {
   return (
     <div>
-      <CardGroup className="m-5">
+      <CardGroup className="my-5 mx-2 mx-md-5">
         <Card bg="light" border="light" className="">
-          <Card.Body className="d-flex flex-column justify-content-center ">
+          <Card.Body className="d-flex flex-column justify-content-center text-center">
             <Card.Text>
-              <b> Recep SAVUT </b>
+              <b>Recep SAVUT</b>
             </Card.Text>
             <Card.Text>Osmangazi / BURSA</Card.Text>
+              <Card.Text>
+                0537 637 06 81
+              </Card.Text>
             <Card.Text>
-              <Button variant="light">
-                bursanostaljiorganizasyon@gmail.com
-              </Button>
-            </Card.Text>
-            <Card.Text>
-              <Button variant="light">0537 637 06 81</Button>
+              <Nav.Link className="text-dark"
+              href="mailto:bursanostaljiorganizasyon@gmail.com"
+              target="_blank"
+            >
+              bursanostaljiorganizasyon@gmail.com
+            </Nav.Link>
             </Card.Text>
           </Card.Body>
         </Card>
