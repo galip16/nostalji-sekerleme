@@ -1,12 +1,4 @@
 
-# Deadline : 08 Nov Pazartesi
-
-
-Sayfa genisligi max 1000px;
-
-
-
-
 
 # Getting Started with Create React App
 
