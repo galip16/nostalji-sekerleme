@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
+
 
 function Gallery() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

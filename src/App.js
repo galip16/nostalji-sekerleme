@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Gallery from "./pages/Gallery";
 import Events from "./pages/Events";
-import Instagram from "./pages/Instagram";
+// import Instagram from "./pages/Instagram";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound"
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/products" component={Products} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/events" component={Events} />
-          <Route path="/instagram" component={Instagram} />
+          {/* <Route path="/instagram" component={Instagram} /> */}
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
 
