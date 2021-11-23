@@ -1,10 +1,20 @@
 import React from "react";
 import "../styles/galery.css";
+import { useHistory } from "react-router-dom";
 import { Container, Col, Card, Row, Button } from "react-bootstrap";
 
 import productData from "../productsInfo.json";
 
-function Gallery() {
+function Gallery({ setSelectedProduct }) {
+  const history = useHistory();
+
+  const handleProduct = (id) => {
+    console.log(id);
+    setSelectedProduct(id);
+    // href="/galerySlider"
+    history.replace("/galerySlider");
+  };
+
   return (
     <div className="photos__container">
       <Container fluid className="product__item">
@@ -23,11 +33,10 @@ function Gallery() {
                   />
 
                   <Button
-                    href="/galerySlider"
+                    onClick={() => handleProduct(product.id)}
                     variant="primary"
                     style={{ height: "10%" }}
                   >
-                    {" "}
                     {product.name}
                   </Button>
                 </Card>
