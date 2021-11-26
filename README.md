@@ -1,21 +1,23 @@
 
 
-# Getting Started with Create React App
+## Was  für eine App?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Diese Website wurde zur Förderung eines Unternehmens erstellt, das verschiedene Dienstleistungen in Organisationen in der Türkei anbietet.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Welche Technologien wurden verwendet?
 
-### `npm start`
+1. HTML
+2. CSS
+3. React
+4. React-Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wie kann ich die Website anzeigen?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
+
+
+**[Sie können auf diesen Link klicken](https://bursanostaljisekerleme.com/)**
 
 ![image](https://user-images.githubusercontent.com/74236869/140658928-d1b88f56-ecdb-42a7-91fb-b9687486538f.png)
 
