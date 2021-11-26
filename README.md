@@ -1,28 +1,31 @@
 
-# Deadline : 08 Nov Pazartesi
+
+## Was  für eine App?
+
+Diese Website wurde zur Förderung eines Unternehmens erstellt, das verschiedene Dienstleistungen in Organisationen in der Türkei anbietet.
 
 
-Sayfa genisligi max 1000px;
+## Welche Technologien wurden verwendet?
+
+1. HTML
+2. CSS
+3. React
+4. React-Bootstrap
 
 
 
+## So führen Sie diesen Code aus
+
+1. Dieses Repository klonen
+2. Öffnen Sie die Befehlszeile im geklonten Ordner
+3. Um zu installieren, führen Sie npm install oder yarn aus
+4. Öffne localhost:3000 im Browser
 
 
-# Getting Started with Create React App
+## Wie kann ich die Website anzeigen?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**[Sie können auf diesen Link klicken](https://bursanostaljisekerleme.com/)**
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 
 ![image](https://user-images.githubusercontent.com/74236869/140658928-d1b88f56-ecdb-42a7-91fb-b9687486538f.png)

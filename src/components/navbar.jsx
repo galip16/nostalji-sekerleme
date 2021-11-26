@@ -6,15 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { CgInstagram, CgFacebook } from "react-icons/cg";
 // import { FiPhoneCall } from "react-icons/fi";
 
-
 function NavBar() {
   const [isMobile, setIsMobile] = useState(false);
 
   //choose the screen size
   const handleResize = () => {
-
     if (window.innerWidth < 720) {
-   
       setIsMobile(true);
     } else {
       setIsMobile(false);
@@ -58,7 +55,7 @@ function NavBar() {
             <Nav.Link href="/products">Ürünler</Nav.Link>
             <Nav.Link href="/gallery">Galeri</Nav.Link>
             <Nav.Link href="/events"> Etkinlikler</Nav.Link>
-            <Nav.Link href="/instagram">Instagram</Nav.Link>
+            {/* <Nav.Link href="/instagram">Instagram</Nav.Link> */}
             <Nav.Link href="/contact">İletişim</Nav.Link>
           </Nav>
           <Nav>
@@ -78,7 +75,6 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
   );
 }
 export default NavBar;
