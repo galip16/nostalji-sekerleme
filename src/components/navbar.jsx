@@ -1,46 +1,21 @@
-import { React, useState, useEffect } from "react";
+import { React } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "../styles/navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import { CgInstagram, CgFacebook } from "react-icons/cg";
-// import { FiPhoneCall } from "react-icons/fi";
 
 function NavBar() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  //choose the screen size
-  const handleResize = () => {
-    if (window.innerWidth < 720) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
-
-  // create an event listener
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-  });
   return (
     <Navbar bg="light" expand="lg" fixed="top" className="border-bottom">
       <Container>
-        <Navbar.Brand
-          href="/"
-          className={
-            isMobile
-              ? "d-flex align-items-center flex-column"
-              : "d-flex align-items-center"
-          }
-        >
+        <Navbar.Brand href="/" className="d-flex align-items-center">
           <img
             alt="Nostalji Sekerleme Logo"
             src="./images/logo1.png"
-            width={isMobile ? "100" : "120"}
-            height={isMobile ? "70" : "80"}
-            className="d-inline-block align-center"
+            height="75"
+            className="d-inline-block align-center w-xs-100 w-md-120"
           />
-          <div className="d-flex flex-column ml-3 mt-2">
+          <div className="d-none d-md-flex flex-column ml-3 mt-2">
             <h4>Nostalji Şekerleme</h4>
             <p style={{ fontSize: "12px" }}>
               Organizasyonunuza tat katıyoruz...
@@ -49,7 +24,7 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav className="me-auto">
+          <Nav className="me-auto text-center">
             <Nav.Link href="/">Anasayfa</Nav.Link>
             <Nav.Link href="/about">Hakkımızda</Nav.Link>
             <Nav.Link href="/products">Ürünler</Nav.Link>
@@ -58,7 +33,7 @@ function NavBar() {
             {/* <Nav.Link href="/instagram">Instagram</Nav.Link> */}
             <Nav.Link href="/contact">İletişim</Nav.Link>
           </Nav>
-          <Nav>
+          <Nav className="text-center">
             <Nav.Link
               href="https://www.instagram.com/bursa_nostalji_sekerleme/"
               target="_blank"
