@@ -6,7 +6,7 @@ import productData from "../productsInfo.json";
 function Products() {
   return (
     <div>
-      <Row className=" my-3 d-flex  text-center">
+      <Row className="my-3 d-flex text-center">
         <Col lg={12}>
           <Card border="white">
             <Card.Body>
@@ -21,15 +21,14 @@ function Products() {
       <Container fluid>
         {productData.map((product, key) => {
           return (
-            <Row className=" m-md-2 mb-md-4 my-lg-5  justify-content-center">
+            <Row className="m-md-2 mb-md-4 my-lg-5 justify-content-center">
               <Col xs={12} md={6} lg={6} className="">
                 <Row className="m-auto h-100 w-100 ">
-                  <Card className="" border="light" bg="light">
+                  <Card border="light" bg="light">
                     <Col
                       md={12}
                       lg={12}
                       xl={9}
-                      className=""
                       style={{ margin: "auto" }}
                     >
                       <Card.Body
@@ -39,7 +38,7 @@ function Products() {
                         <Card.Title className="productTitle">
                           <h4>{product.name}</h4>
                         </Card.Title>
-                        <Card.Text className="productDescribe  ">
+                        <Card.Text className="productDescribe">
                           {product.text}
                         </Card.Text>
                       </Card.Body>
@@ -48,7 +47,7 @@ function Products() {
                 </Row>
               </Col>
               <Col xs={12} md={6} lg={6}>
-                <Row className="m-auto h-100 w-100 ">
+                <Row className="m-auto h-100 w-100">
                   <Card style={{ height: "100%", width: "100%" }}>
                     <Card.Img
                       src={product.imgUrl}
