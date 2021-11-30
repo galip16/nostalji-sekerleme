@@ -27,7 +27,12 @@ function GalerySlider(selectedProduct) {
   return (
     <div className="galerySlider">
       <h2> {productData[selectedProduct.selectedProduct].name} </h2>
-      <ImageGallery items={images} autoPlay={true} showPlayButton={false} />
+      <ImageGallery
+        items={images}
+        autoPlay={true}
+        showPlayButton={false}
+        slideDuration={600}
+      />
     </div>
   );
 }
